@@ -1,6 +1,6 @@
 -- V2 of the script
 --Old script inside this script
--- This link for update
+-- This link for updates: https://raw.githubusercontent.com/Scriptmaker9000/yes-script/main/3mro'sHubNew
 
 local Gui2 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
