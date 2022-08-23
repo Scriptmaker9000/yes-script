@@ -1,0 +1,2362 @@
+-- V2 of the script
+--Old script inside this script
+-- This link for update
+
+local Gui2 = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Home = Instance.new("Frame")
+local Tab = Instance.new("Frame")
+local _3mro = Instance.new("TextLabel")
+local p1 = Instance.new("TextButton")
+local p2 = Instance.new("TextButton")
+local p3 = Instance.new("TextButton")
+local p4 = Instance.new("TextButton")
+local home = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local _3mro_2 = Instance.new("TextLabel")
+local Info = Instance.new("TextLabel")
+local Info_2 = Instance.new("TextLabel")
+local Info_3 = Instance.new("TextLabel")
+local Info_4 = Instance.new("TextLabel")
+local OldGui = Instance.new("TextButton")
+local Page1 = Instance.new("Frame")
+local Tab_2 = Instance.new("Frame")
+local _3mro_3 = Instance.new("TextLabel")
+local p1_2 = Instance.new("TextButton")
+local p2_2 = Instance.new("TextButton")
+local p3_2 = Instance.new("TextButton")
+local p4_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local home_2 = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local FA = Instance.new("TextButton")
+local Marble = Instance.new("TextButton")
+local GC = Instance.new("TextButton")
+local IJ = Instance.new("TextButton")
+local CT = Instance.new("TextButton")
+local BecomeLarge = Instance.new("TextButton")
+local Fling = Instance.new("TextButton")
+local Page2 = Instance.new("Frame")
+local Tab_3 = Instance.new("Frame")
+local _3mro_4 = Instance.new("TextLabel")
+local p1_3 = Instance.new("TextButton")
+local p2_3 = Instance.new("TextButton")
+local p3_3 = Instance.new("TextButton")
+local p4_3 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local home_3 = Instance.new("TextButton")
+local Page3 = Instance.new("Frame")
+local Tab_4 = Instance.new("Frame")
+local _3mro_5 = Instance.new("TextLabel")
+local p1_4 = Instance.new("TextButton")
+local p2_4 = Instance.new("TextButton")
+local p3_4 = Instance.new("TextButton")
+local p4_4 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local home_4 = Instance.new("TextButton")
+local Page4 = Instance.new("Frame")
+local Tab_5 = Instance.new("Frame")
+local _3mro_6 = Instance.new("TextLabel")
+local p1_5 = Instance.new("TextButton")
+local p2_5 = Instance.new("TextButton")
+local p3_5 = Instance.new("TextButton")
+local p4_5 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local home_5 = Instance.new("TextButton")
+
+--Properties:
+
+Gui2.Name = "Gui2"
+Gui2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Gui2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = Gui2
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.626732647, 0, 0.244161353, 0)
+Main.Size = UDim2.new(0, 100, 0, 100)
+
+Home.Name = "Home"
+Home.Parent = Main
+Home.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Home.Position = UDim2.new(-4.77544594, 0, -0.606305718, 0)
+Home.Size = UDim2.new(0, 667, 0, 393)
+Home.Visible = false
+
+Tab.Name = "Tab"
+Tab.Parent = Home
+Tab.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tab.Position = UDim2.new(-0.000901028514, 0, -0.00204210356, 0)
+Tab.Size = UDim2.new(0, 109, 0, 393)
+
+_3mro.Name = "3mro"
+_3mro.Parent = Tab
+_3mro.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3mro.BackgroundTransparency = 1.000
+_3mro.Size = UDim2.new(0, 109, 0, 50)
+_3mro.Font = Enum.Font.Nunito
+_3mro.Text = "3mro's hub"
+_3mro.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3mro.TextScaled = true
+_3mro.TextSize = 14.000
+_3mro.TextWrapped = true
+
+p1.Name = "p1"
+p1.Parent = Tab
+p1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p1.BackgroundTransparency = 1.000
+p1.Position = UDim2.new(0, 0, 0.127226457, 0)
+p1.Size = UDim2.new(0, 109, 0, 40)
+p1.Font = Enum.Font.Kalam
+p1.Text = "Page 1"
+p1.TextColor3 = Color3.fromRGB(0, 0, 0)
+p1.TextScaled = true
+p1.TextSize = 14.000
+p1.TextWrapped = true
+
+p2.Name = "p2"
+p2.Parent = Tab
+p2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p2.BackgroundTransparency = 1.000
+p2.Position = UDim2.new(0, 0, 0.229007632, 0)
+p2.Size = UDim2.new(0, 109, 0, 40)
+p2.Font = Enum.Font.Kalam
+p2.Text = "Page 2"
+p2.TextColor3 = Color3.fromRGB(0, 0, 0)
+p2.TextScaled = true
+p2.TextSize = 14.000
+p2.TextWrapped = true
+
+p3.Name = "p3"
+p3.Parent = Tab
+p3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p3.BackgroundTransparency = 1.000
+p3.Position = UDim2.new(0, 0, 0.348600507, 0)
+p3.Size = UDim2.new(0, 109, 0, 40)
+p3.Font = Enum.Font.Kalam
+p3.Text = "Page 3"
+p3.TextColor3 = Color3.fromRGB(0, 0, 0)
+p3.TextScaled = true
+p3.TextSize = 14.000
+p3.TextWrapped = true
+
+p4.Name = "p4"
+p4.Parent = Tab
+p4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p4.BackgroundTransparency = 1.000
+p4.Position = UDim2.new(0, 0, 0.473282456, 0)
+p4.Size = UDim2.new(0, 109, 0, 40)
+p4.Font = Enum.Font.Kalam
+p4.Text = "Page 4"
+p4.TextColor3 = Color3.fromRGB(0, 0, 0)
+p4.TextScaled = true
+p4.TextSize = 14.000
+p4.TextWrapped = true
+
+home.Name = "home"
+home.Parent = Tab
+home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+home.BackgroundTransparency = 1.000
+home.Position = UDim2.new(0, 0, 0.575063646, 0)
+home.Size = UDim2.new(0, 109, 0, 40)
+home.Font = Enum.Font.Kalam
+home.Text = "Home"
+home.TextColor3 = Color3.fromRGB(0, 0, 0)
+home.TextScaled = true
+home.TextSize = 14.000
+home.TextWrapped = true
+
+UICorner.Parent = Home
+
+_3mro_2.Name = "3mro"
+_3mro_2.Parent = Home
+_3mro_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3mro_2.BackgroundTransparency = 1.000
+_3mro_2.Position = UDim2.new(0.176911548, 0, 0, 0)
+_3mro_2.Size = UDim2.new(0, 549, 0, 50)
+_3mro_2.Font = Enum.Font.Kalam
+_3mro_2.Text = "3mro's hub but better and bigger"
+_3mro_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3mro_2.TextScaled = true
+_3mro_2.TextSize = 14.000
+_3mro_2.TextWrapped = true
+
+Info.Name = "Info"
+Info.Parent = Home
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.Position = UDim2.new(0.176911548, 0, 0.124681927, 0)
+Info.Size = UDim2.new(0, 549, 0, 50)
+Info.Font = Enum.Font.Kalam
+Info.Text = "Bought this script? You just got scammed"
+Info.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+Info_2.Name = "Info"
+Info_2.Parent = Home
+Info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_2.BackgroundTransparency = 1.000
+Info_2.Position = UDim2.new(0.176911548, 0, 0.251908392, 0)
+Info_2.Size = UDim2.new(0, 549, 0, 50)
+Info_2.Font = Enum.Font.Kalam
+Info_2.Text = "Need help? DM 3mro#2373"
+Info_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_2.TextScaled = true
+Info_2.TextSize = 14.000
+Info_2.TextWrapped = true
+
+Info_3.Name = "Info"
+Info_3.Parent = Home
+Info_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_3.BackgroundTransparency = 1.000
+Info_3.Position = UDim2.new(0.176911548, 0, 0.396946549, 0)
+Info_3.Size = UDim2.new(0, 549, 0, 50)
+Info_3.Font = Enum.Font.Kalam
+Info_3.Text = "You use 3mro's hub? You're a W"
+Info_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_3.TextScaled = true
+Info_3.TextSize = 14.000
+Info_3.TextWrapped = true
+
+Info_4.Name = "Info"
+Info_4.Parent = Home
+Info_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_4.BackgroundTransparency = 1.000
+Info_4.Position = UDim2.new(0.161919042, 0, 0.547073781, 0)
+Info_4.Size = UDim2.new(0, 549, 0, 50)
+Info_4.Font = Enum.Font.Kalam
+Info_4.Text = "What happened to old GUI? Its still active but discontuniod"
+Info_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_4.TextScaled = true
+Info_4.TextSize = 14.000
+Info_4.TextWrapped = true
+
+OldGui.Name = "OldGui"
+OldGui.Parent = Home
+OldGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OldGui.BackgroundTransparency = 1.000
+OldGui.Position = UDim2.new(0.176911592, 0, 0.697201014, 0)
+OldGui.Size = UDim2.new(0, 539, 0, 50)
+OldGui.Font = Enum.Font.Kalam
+OldGui.Text = "Want the old GUI? Click here"
+OldGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+OldGui.TextScaled = true
+OldGui.TextSize = 14.000
+OldGui.TextWrapped = true
+
+Page1.Name = "Page1"
+Page1.Parent = Main
+Page1.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Page1.BorderColor3 = Color3.fromRGB(75, 0, 1)
+Page1.Position = UDim2.new(-4.77544594, 0, -0.606305718, 0)
+Page1.Size = UDim2.new(0, 667, 0, 393)
+
+Tab_2.Name = "Tab"
+Tab_2.Parent = Page1
+Tab_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tab_2.Position = UDim2.new(-0.000901028514, 0, -0.00204210356, 0)
+Tab_2.Size = UDim2.new(0, 109, 0, 393)
+
+_3mro_3.Name = "3mro"
+_3mro_3.Parent = Tab_2
+_3mro_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3mro_3.BackgroundTransparency = 1.000
+_3mro_3.Size = UDim2.new(0, 109, 0, 50)
+_3mro_3.Font = Enum.Font.Nunito
+_3mro_3.Text = "3mro's hub"
+_3mro_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3mro_3.TextScaled = true
+_3mro_3.TextSize = 14.000
+_3mro_3.TextWrapped = true
+
+p1_2.Name = "p1"
+p1_2.Parent = Tab_2
+p1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p1_2.BackgroundTransparency = 1.000
+p1_2.Position = UDim2.new(0, 0, 0.127226457, 0)
+p1_2.Size = UDim2.new(0, 109, 0, 40)
+p1_2.Font = Enum.Font.Kalam
+p1_2.Text = "Page 1"
+p1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+p1_2.TextScaled = true
+p1_2.TextSize = 14.000
+p1_2.TextWrapped = true
+
+p2_2.Name = "p2"
+p2_2.Parent = Tab_2
+p2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p2_2.BackgroundTransparency = 1.000
+p2_2.Position = UDim2.new(0, 0, 0.229007632, 0)
+p2_2.Size = UDim2.new(0, 109, 0, 40)
+p2_2.Font = Enum.Font.Kalam
+p2_2.Text = "Page 2"
+p2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+p2_2.TextScaled = true
+p2_2.TextSize = 14.000
+p2_2.TextWrapped = true
+
+p3_2.Name = "p3"
+p3_2.Parent = Tab_2
+p3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p3_2.BackgroundTransparency = 1.000
+p3_2.Position = UDim2.new(0, 0, 0.348600507, 0)
+p3_2.Size = UDim2.new(0, 109, 0, 40)
+p3_2.Font = Enum.Font.Kalam
+p3_2.Text = "Page 3"
+p3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+p3_2.TextScaled = true
+p3_2.TextSize = 14.000
+p3_2.TextWrapped = true
+
+p4_2.Name = "p4"
+p4_2.Parent = Tab_2
+p4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p4_2.BackgroundTransparency = 1.000
+p4_2.Position = UDim2.new(0, 0, 0.473282456, 0)
+p4_2.Size = UDim2.new(0, 109, 0, 40)
+p4_2.Font = Enum.Font.Kalam
+p4_2.Text = "Page 4"
+p4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+p4_2.TextScaled = true
+p4_2.TextSize = 14.000
+p4_2.TextWrapped = true
+
+UICorner_2.Parent = Page1
+
+home_2.Name = "home"
+home_2.Parent = Page1
+home_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+home_2.BackgroundTransparency = 1.000
+home_2.Position = UDim2.new(0, 0, 0.575063646, 0)
+home_2.Size = UDim2.new(0, 109, 0, 40)
+home_2.Font = Enum.Font.Kalam
+home_2.Text = "Home"
+home_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+home_2.TextScaled = true
+home_2.TextSize = 14.000
+home_2.TextWrapped = true
+
+Fly.Name = "Fly"
+Fly.Parent = Page1
+Fly.BackgroundColor3 = Color3.fromRGB(75, 73, 75)
+Fly.BorderColor3 = Color3.fromRGB(75, 73, 75)
+Fly.Position = UDim2.new(0.187406346, 0, 0.0432569571, 0)
+Fly.Size = UDim2.new(0, 164, 0, 90)
+Fly.Font = Enum.Font.Kalam
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+
+FA.Name = "FA"
+FA.Parent = Page1
+FA.BackgroundColor3 = Color3.fromRGB(75, 73, 75)
+FA.BorderColor3 = Color3.fromRGB(75, 73, 75)
+FA.Position = UDim2.new(0.442278922, 0, 0.0432569571, 0)
+FA.Size = UDim2.new(0, 164, 0, 90)
+FA.Font = Enum.Font.Kalam
+FA.Text = "Admin Commands"
+FA.TextColor3 = Color3.fromRGB(0, 0, 0)
+FA.TextScaled = true
+FA.TextSize = 14.000
+FA.TextWrapped = true
+
+Marble.Name = "Marble"
+Marble.Parent = Page1
+Marble.BackgroundColor3 = Color3.fromRGB(75, 73, 75)
+Marble.BorderColor3 = Color3.fromRGB(75, 73, 75)
+Marble.Position = UDim2.new(0.688156009, 0, 0.0432569571, 0)
+Marble.Size = UDim2.new(0, 164, 0, 90)
+Marble.Font = Enum.Font.Kalam
+Marble.Text = "Become a ball"
+Marble.TextColor3 = Color3.fromRGB(0, 0, 0)
+Marble.TextScaled = true
+Marble.TextSize = 14.000
+Marble.TextWrapped = true
+
+GC.Name = "GC"
+GC.Parent = Page1
+GC.BackgroundColor3 = Color3.fromRGB(75, 73, 75)
+GC.BorderColor3 = Color3.fromRGB(75, 73, 75)
+GC.Position = UDim2.new(0.196401849, 0, 0.282442719, 0)
+GC.Size = UDim2.new(0, 164, 0, 90)
+GC.Font = Enum.Font.Kalam
+GC.Text = "Gravity Changer"
+GC.TextColor3 = Color3.fromRGB(0, 0, 0)
+GC.TextScaled = true
+GC.TextSize = 14.000
+GC.TextWrapped = true
+
+IJ.Name = "IJ"
+IJ.Parent = Page1
+IJ.BackgroundColor3 = Color3.fromRGB(75, 73, 75)
+IJ.BorderColor3 = Color3.fromRGB(75, 73, 75)
+IJ.Position = UDim2.new(0.442278922, 0, 0.282442719, 0)
+IJ.Size = UDim2.new(0, 164, 0, 90)
+IJ.Font = Enum.Font.Kalam
+IJ.Text = "Inf Jumps"
+IJ.TextColor3 = Color3.fromRGB(0, 0, 0)
+IJ.TextScaled = true
+IJ.TextSize = 14.000
+IJ.TextWrapped = true
+
+CT.Name = "CT"
+CT.Parent = Page1
+CT.BackgroundColor3 = Color3.fromRGB(75, 73, 75)
+CT.BorderColor3 = Color3.fromRGB(75, 73, 75)
+CT.Position = UDim2.new(0.715142488, 0, 0.2722646, 0)
+CT.Size = UDim2.new(0, 164, 0, 90)
+CT.Font = Enum.Font.Kalam
+CT.Text = "Click Tp"
+CT.TextColor3 = Color3.fromRGB(0, 0, 0)
+CT.TextScaled = true
+CT.TextSize = 14.000
+CT.TextWrapped = true
+
+BecomeLarge.Name = "BecomeLarge"
+BecomeLarge.Parent = Page1
+BecomeLarge.BackgroundColor3 = Color3.fromRGB(75, 73, 75)
+BecomeLarge.BorderColor3 = Color3.fromRGB(75, 73, 75)
+BecomeLarge.Position = UDim2.new(0.196401849, 0, 0.51145035, 0)
+BecomeLarge.Size = UDim2.new(0, 164, 0, 90)
+BecomeLarge.Font = Enum.Font.Kalam
+BecomeLarge.Text = "Become large.  MUST (R15 = ON, Height = 105 Width = 100, Head = 100, Porportions = 0, Body scale = 100)"
+BecomeLarge.TextColor3 = Color3.fromRGB(0, 0, 0)
+BecomeLarge.TextScaled = true
+BecomeLarge.TextSize = 14.000
+BecomeLarge.TextWrapped = true
+
+Fling.Name = "Fling"
+Fling.Parent = Page1
+Fling.BackgroundColor3 = Color3.fromRGB(75, 73, 75)
+Fling.BorderColor3 = Color3.fromRGB(75, 73, 75)
+Fling.Position = UDim2.new(0.460269928, 0, 0.51145035, 0)
+Fling.Size = UDim2.new(0, 164, 0, 90)
+Fling.Font = Enum.Font.Kalam
+Fling.Text = "Fling(Might be broken for some games)"
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fling.TextScaled = true
+Fling.TextSize = 14.000
+Fling.TextWrapped = true
+
+Page2.Name = "Page2"
+Page2.Parent = Main
+Page2.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Page2.Position = UDim2.new(-4.77544594, 0, -0.606305718, 0)
+Page2.Size = UDim2.new(0, 667, 0, 393)
+Page2.Visible = false
+
+Tab_3.Name = "Tab"
+Tab_3.Parent = Page2
+Tab_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tab_3.Position = UDim2.new(-0.000901028514, 0, -0.00204210356, 0)
+Tab_3.Size = UDim2.new(0, 109, 0, 393)
+
+_3mro_4.Name = "3mro"
+_3mro_4.Parent = Tab_3
+_3mro_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3mro_4.BackgroundTransparency = 1.000
+_3mro_4.Size = UDim2.new(0, 109, 0, 50)
+_3mro_4.Font = Enum.Font.Nunito
+_3mro_4.Text = "3mro's hub"
+_3mro_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3mro_4.TextScaled = true
+_3mro_4.TextSize = 14.000
+_3mro_4.TextWrapped = true
+
+p1_3.Name = "p1"
+p1_3.Parent = Tab_3
+p1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p1_3.BackgroundTransparency = 1.000
+p1_3.Position = UDim2.new(0, 0, 0.127226457, 0)
+p1_3.Size = UDim2.new(0, 109, 0, 40)
+p1_3.Font = Enum.Font.Kalam
+p1_3.Text = "Page 1"
+p1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+p1_3.TextScaled = true
+p1_3.TextSize = 14.000
+p1_3.TextWrapped = true
+
+p2_3.Name = "p2"
+p2_3.Parent = Tab_3
+p2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p2_3.BackgroundTransparency = 1.000
+p2_3.Position = UDim2.new(0, 0, 0.229007632, 0)
+p2_3.Size = UDim2.new(0, 109, 0, 40)
+p2_3.Font = Enum.Font.Kalam
+p2_3.Text = "Page 2"
+p2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+p2_3.TextScaled = true
+p2_3.TextSize = 14.000
+p2_3.TextWrapped = true
+
+p3_3.Name = "p3"
+p3_3.Parent = Tab_3
+p3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p3_3.BackgroundTransparency = 1.000
+p3_3.Position = UDim2.new(0, 0, 0.348600507, 0)
+p3_3.Size = UDim2.new(0, 109, 0, 40)
+p3_3.Font = Enum.Font.Kalam
+p3_3.Text = "Page 3"
+p3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+p3_3.TextScaled = true
+p3_3.TextSize = 14.000
+p3_3.TextWrapped = true
+
+p4_3.Name = "p4"
+p4_3.Parent = Tab_3
+p4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p4_3.BackgroundTransparency = 1.000
+p4_3.Position = UDim2.new(0, 0, 0.473282456, 0)
+p4_3.Size = UDim2.new(0, 109, 0, 40)
+p4_3.Font = Enum.Font.Kalam
+p4_3.Text = "Page 4"
+p4_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+p4_3.TextScaled = true
+p4_3.TextSize = 14.000
+p4_3.TextWrapped = true
+
+UICorner_3.Parent = Page2
+
+home_3.Name = "home"
+home_3.Parent = Page2
+home_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+home_3.BackgroundTransparency = 1.000
+home_3.Position = UDim2.new(0, 0, 0.575063646, 0)
+home_3.Size = UDim2.new(0, 109, 0, 40)
+home_3.Font = Enum.Font.Kalam
+home_3.Text = "Home"
+home_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+home_3.TextScaled = true
+home_3.TextSize = 14.000
+home_3.TextWrapped = true
+
+Page3.Name = "Page3"
+Page3.Parent = Main
+Page3.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Page3.Position = UDim2.new(-4.77544594, 0, -0.606305718, 0)
+Page3.Size = UDim2.new(0, 667, 0, 393)
+Page3.Visible = false
+
+Tab_4.Name = "Tab"
+Tab_4.Parent = Page3
+Tab_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tab_4.Position = UDim2.new(-0.000901028514, 0, -0.00204210356, 0)
+Tab_4.Size = UDim2.new(0, 109, 0, 393)
+
+_3mro_5.Name = "3mro"
+_3mro_5.Parent = Tab_4
+_3mro_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3mro_5.BackgroundTransparency = 1.000
+_3mro_5.Size = UDim2.new(0, 109, 0, 50)
+_3mro_5.Font = Enum.Font.Nunito
+_3mro_5.Text = "3mro's hub"
+_3mro_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3mro_5.TextScaled = true
+_3mro_5.TextSize = 14.000
+_3mro_5.TextWrapped = true
+
+p1_4.Name = "p1"
+p1_4.Parent = Tab_4
+p1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p1_4.BackgroundTransparency = 1.000
+p1_4.Position = UDim2.new(0, 0, 0.127226457, 0)
+p1_4.Size = UDim2.new(0, 109, 0, 40)
+p1_4.Font = Enum.Font.Kalam
+p1_4.Text = "Page 1"
+p1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+p1_4.TextScaled = true
+p1_4.TextSize = 14.000
+p1_4.TextWrapped = true
+
+p2_4.Name = "p2"
+p2_4.Parent = Tab_4
+p2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p2_4.BackgroundTransparency = 1.000
+p2_4.Position = UDim2.new(0, 0, 0.229007632, 0)
+p2_4.Size = UDim2.new(0, 109, 0, 40)
+p2_4.Font = Enum.Font.Kalam
+p2_4.Text = "Page 2"
+p2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+p2_4.TextScaled = true
+p2_4.TextSize = 14.000
+p2_4.TextWrapped = true
+
+p3_4.Name = "p3"
+p3_4.Parent = Tab_4
+p3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p3_4.BackgroundTransparency = 1.000
+p3_4.Position = UDim2.new(0, 0, 0.348600507, 0)
+p3_4.Size = UDim2.new(0, 109, 0, 40)
+p3_4.Font = Enum.Font.Kalam
+p3_4.Text = "Page 3"
+p3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+p3_4.TextScaled = true
+p3_4.TextSize = 14.000
+p3_4.TextWrapped = true
+
+p4_4.Name = "p4"
+p4_4.Parent = Tab_4
+p4_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p4_4.BackgroundTransparency = 1.000
+p4_4.Position = UDim2.new(0, 0, 0.473282456, 0)
+p4_4.Size = UDim2.new(0, 109, 0, 40)
+p4_4.Font = Enum.Font.Kalam
+p4_4.Text = "Page 4"
+p4_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+p4_4.TextScaled = true
+p4_4.TextSize = 14.000
+p4_4.TextWrapped = true
+
+UICorner_4.Parent = Page3
+
+home_4.Name = "home"
+home_4.Parent = Page3
+home_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+home_4.BackgroundTransparency = 1.000
+home_4.Position = UDim2.new(0, 0, 0.575063646, 0)
+home_4.Size = UDim2.new(0, 109, 0, 40)
+home_4.Font = Enum.Font.Kalam
+home_4.Text = "Home"
+home_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+home_4.TextScaled = true
+home_4.TextSize = 14.000
+home_4.TextWrapped = true
+
+Page4.Name = "Page4"
+Page4.Parent = Main
+Page4.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Page4.Position = UDim2.new(-4.77544594, 0, -0.606305718, 0)
+Page4.Size = UDim2.new(0, 667, 0, 393)
+Page4.Visible = false
+
+Tab_5.Name = "Tab"
+Tab_5.Parent = Page4
+Tab_5.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tab_5.Position = UDim2.new(-0.000901028514, 0, -0.00204210356, 0)
+Tab_5.Size = UDim2.new(0, 109, 0, 393)
+
+_3mro_6.Name = "3mro"
+_3mro_6.Parent = Tab_5
+_3mro_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3mro_6.BackgroundTransparency = 1.000
+_3mro_6.Size = UDim2.new(0, 109, 0, 50)
+_3mro_6.Font = Enum.Font.Nunito
+_3mro_6.Text = "3mro's hub"
+_3mro_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3mro_6.TextScaled = true
+_3mro_6.TextSize = 14.000
+_3mro_6.TextWrapped = true
+
+p1_5.Name = "p1"
+p1_5.Parent = Tab_5
+p1_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p1_5.BackgroundTransparency = 1.000
+p1_5.Position = UDim2.new(0, 0, 0.127226457, 0)
+p1_5.Size = UDim2.new(0, 109, 0, 40)
+p1_5.Font = Enum.Font.Kalam
+p1_5.Text = "Page 1"
+p1_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+p1_5.TextScaled = true
+p1_5.TextSize = 14.000
+p1_5.TextWrapped = true
+
+p2_5.Name = "p2"
+p2_5.Parent = Tab_5
+p2_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p2_5.BackgroundTransparency = 1.000
+p2_5.Position = UDim2.new(0, 0, 0.229007632, 0)
+p2_5.Size = UDim2.new(0, 109, 0, 40)
+p2_5.Font = Enum.Font.Kalam
+p2_5.Text = "Page 2"
+p2_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+p2_5.TextScaled = true
+p2_5.TextSize = 14.000
+p2_5.TextWrapped = true
+
+p3_5.Name = "p3"
+p3_5.Parent = Tab_5
+p3_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p3_5.BackgroundTransparency = 1.000
+p3_5.Position = UDim2.new(0, 0, 0.348600507, 0)
+p3_5.Size = UDim2.new(0, 109, 0, 40)
+p3_5.Font = Enum.Font.Kalam
+p3_5.Text = "Page 3"
+p3_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+p3_5.TextScaled = true
+p3_5.TextSize = 14.000
+p3_5.TextWrapped = true
+
+p4_5.Name = "p4"
+p4_5.Parent = Tab_5
+p4_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+p4_5.BackgroundTransparency = 1.000
+p4_5.Position = UDim2.new(0, 0, 0.473282456, 0)
+p4_5.Size = UDim2.new(0, 109, 0, 40)
+p4_5.Font = Enum.Font.Kalam
+p4_5.Text = "Page 4"
+p4_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+p4_5.TextScaled = true
+p4_5.TextSize = 14.000
+p4_5.TextWrapped = true
+
+UICorner_5.Parent = Page4
+
+home_5.Name = "home"
+home_5.Parent = Page4
+home_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+home_5.BackgroundTransparency = 1.000
+home_5.Position = UDim2.new(0, 0, 0.575063646, 0)
+home_5.Size = UDim2.new(0, 109, 0, 40)
+home_5.Font = Enum.Font.Kalam
+home_5.Text = "Home"
+home_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+home_5.TextScaled = true
+home_5.TextSize = 14.000
+home_5.TextWrapped = true
+
+-- Scripts:
+
+local function IVCHYBU_fake_script() -- p1.LocalScript 
+	local script = Instance.new('LocalScript', p1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = true
+	end)
+	
+end
+coroutine.wrap(IVCHYBU_fake_script)()
+local function VABFPL_fake_script() -- p2.LocalScript 
+	local script = Instance.new('LocalScript', p2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(VABFPL_fake_script)()
+local function OISWS_fake_script() -- p3.LocalScript 
+	local script = Instance.new('LocalScript', p3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = true
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(OISWS_fake_script)()
+local function TMNBM_fake_script() -- p4.LocalScript 
+	local script = Instance.new('LocalScript', p4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = true
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(TMNBM_fake_script)()
+local function PJVRR_fake_script() -- OldGui.LocalScript 
+	local script = Instance.new('LocalScript', OldGui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard("https://raw.githubusercontent.com/Scriptmaker9000/Script/main/source")
+end
+coroutine.wrap(PJVRR_fake_script)()
+local function WNBN_fake_script() -- p1_2.LocalScript 
+	local script = Instance.new('LocalScript', p1_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = true
+	end)
+	
+end
+coroutine.wrap(WNBN_fake_script)()
+local function ZQUXQ_fake_script() -- p2_2.LocalScript 
+	local script = Instance.new('LocalScript', p2_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(ZQUXQ_fake_script)()
+local function QJOQHXB_fake_script() -- p3_2.LocalScript 
+	local script = Instance.new('LocalScript', p3_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = true
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(QJOQHXB_fake_script)()
+local function ZDEU_fake_script() -- p4_2.LocalScript 
+	local script = Instance.new('LocalScript', p4_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = true
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(ZDEU_fake_script)()
+local function UJZI_fake_script() -- home_2.LocalScript 
+	local script = Instance.new('LocalScript', home_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = true
+	end)
+end
+coroutine.wrap(UJZI_fake_script)()
+local function NPQCCL_fake_script() -- Fly.LocalScript 
+	local script = Instance.new('LocalScript', Fly)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local power = 30
+		wait() 
+		local tool = nil
+	
+		local bpos = Instance.new("BodyPosition") 
+		local gyro = Instance.new("BodyGyro") 
+	
+		local fly = false 
+	
+		local player = game.Players.LocalPlayer 
+	
+		local character = player.Character
+		if not character or not character.Parent then
+			character = player.CharacterAdded:wait()
+		end
+	
+		local char = character:FindFirstChild("UpperTorso")
+		if not char then char = character:FindFirstChild("Torso") end
+	
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		-- ========================================
+		-- ========================================
+	
+	
+		-- ========================================
+		-- SETUP FUNCTION
+		-- ========================================
+	
+		-- Create a new tool and place it in the local player's backpack
+		-- Make this script a child of the tool, script controls flying
+		local function setupTool()
+			tool = Instance.new("Tool")
+			tool.Name = "Fly"
+			tool.RequiresHandle = false
+			tool.Parent = game.Players.LocalPlayer.Backpack
+	
+			gyro.maxTorque = Vector3.new(math.huge,math.huge,math.huge) 
+			bpos.maxForce = Vector3.new(math.huge,math.huge,math.huge)
+	
+			script.Parent = tool
+	
+			tool.Parent = game.Players.LocalPlayer.Backpack
+		end
+	
+		setupTool()
+		-- ========================================
+		-- ========================================
+	
+	
+		-- ========================================
+		-- FLY FUNCTIONS
+		-- ========================================
+	
+		-- Start flying when player uses tool
+		function onSelected() 	
+			bpos.Parent = char 
+			bpos.position = char.Position + Vector3.new(0,10,0) 
+			gyro.Parent = char 
+	
+			character.Humanoid.PlatformStand = true 
+	
+			for i, v in ipairs(char:GetChildren()) do 
+				if v.className == "Motor" then 
+					v.MaxVelocity = 0 
+					v.CurrentAngle = -1 
+					if v.Name == "Left Hip" then 
+						v.CurrentAngle = 1 
+					end 
+				end 
+			end
+	
+			fly = true 
+			wait()
+			while fly do
+				local pos = mouse.Hit.p
+				gyro.CFrame = CFrame.new(char.Position,pos) * CFrame.fromEulerAnglesXYZ(-3.14/2,0,0) 
+				bpos.Position = char.Position + (pos-char.Position).unit * power 
+				wait()
+			end 
+		end 
+	
+		-- Stop flying when player stops using tool
+		function onDeselected() 
+			gyro.Parent = nil 
+			fly = false 
+	
+			character.Humanoid.PlatformStand = false 
+	
+			for i, v in ipairs(char:GetChildren()) do 
+				if v.className == "Motor" then 
+					v.MaxVelocity = 1 
+				end 
+			end
+	
+			bpos.Parent = nil 
+		end 
+	
+		tool.Unequipped:Connect(function() fly = false end)
+	
+		tool.Activated:Connect(onSelected) 
+		tool.Deactivated:Connect(onDeselected)
+		-- ========================================
+		-- ========================================
+	
+	
+	end)
+	
+end
+coroutine.wrap(NPQCCL_fake_script)()
+local function GDAVC_fake_script() -- FA.LocalScript 
+	local script = Instance.new('LocalScript', FA)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	end)
+	
+end
+coroutine.wrap(GDAVC_fake_script)()
+local function ABHOCSU_fake_script() -- Marble.LocalScript 
+	local script = Instance.new('LocalScript', Marble)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local UserInputService = game:GetService("UserInputService")
+		local RunService = game:GetService("RunService")
+		local Camera = workspace.CurrentCamera
+	
+		local SPEED_MULTIPLIER = 30
+		local JUMP_POWER = 60
+		local JUMP_GAP = 0.3
+	
+		local character = game.Players.LocalPlayer.Character
+	
+		for i,v in ipairs(character:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.CanCollide = false
+			end
+		end
+	
+		local ball = character.HumanoidRootPart
+		ball.Shape = Enum.PartType.Ball
+		ball.Size = Vector3.new(5,5,5)
+		local humanoid = character:WaitForChild("Humanoid")
+		local params = RaycastParams.new()
+		params.FilterType = Enum.RaycastFilterType.Blacklist
+		params.FilterDescendantsInstances = {character}
+	
+		local tc = RunService.RenderStepped:Connect(function(delta)
+			ball.CanCollide = true
+			humanoid.PlatformStand = true
+			if UserInputService:GetFocusedTextBox() then return end
+			if UserInputService:IsKeyDown("W") then
+				ball.RotVelocity -= Camera.CFrame.RightVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown("A") then
+				ball.RotVelocity -= Camera.CFrame.LookVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown("S") then
+				ball.RotVelocity += Camera.CFrame.RightVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown("D") then
+				ball.RotVelocity += Camera.CFrame.LookVector * delta * SPEED_MULTIPLIER
+			end
+			--ball.RotVelocity = ball.RotVelocity - Vector3.new(0,ball.RotVelocity.Y/50,0)
+		end)
+	
+		UserInputService.JumpRequest:Connect(function()
+			local result = workspace:Raycast(
+				ball.Position,
+				Vector3.new(
+					0,
+					-((ball.Size.Y/2)+JUMP_GAP),
+					0
+				),
+				params
+			)
+			if result then
+				ball.Velocity = ball.Velocity + Vector3.new(0,JUMP_POWER,0)
+			end
+		end)
+	
+		Camera.CameraSubject = ball
+		humanoid.Died:Connect(function() tc:Disconnect() end)
+	
+	end)
+	
+end
+coroutine.wrap(ABHOCSU_fake_script)()
+local function SWVC_fake_script() -- GC.LocalScript 
+	local script = Instance.new('LocalScript', GC)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "Please wait as we load!"
+	
+	
+	
+	
+		local ScreenGui = Instance.new("ScreenGui")
+		local Frame = Instance.new("Frame")
+		local GC = Instance.new("TextLabel")
+		local _5 = Instance.new("TextButton")
+		local _50 = Instance.new("TextButton")
+		local _60 = Instance.new("TextButton")
+		local _100 = Instance.new("TextButton")
+		local _150 = Instance.new("TextButton")
+		local Close = Instance.new("TextButton")
+		local Open = Instance.new("TextButton")
+	
+		-- Announcment thingy
+	
+	
+	
+	
+		--Properties:
+	
+		ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		ScreenGui.ResetOnSpawn = false
+	
+		Frame.Parent = ScreenGui
+		Frame.BackgroundColor3 = Color3.fromRGB(92, 255, 220)
+		Frame.Position = UDim2.new(0.856470346, 0, 0.180758014, 0)
+		Frame.Size = UDim2.new(0, 150, 0, 272)
+	
+		GC.Name = "GC"
+		GC.Parent = Frame
+		GC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		GC.BackgroundTransparency = 1.000
+		GC.Position = UDim2.new(0.120000012, 0, -0.00367647037, 0)
+		GC.Size = UDim2.new(0, 100, 0, 51)
+		GC.Font = Enum.Font.PatrickHand
+		GC.Text = "Gravity changer By 3mro#2373(Doesnt work on every Game)"
+		GC.TextColor3 = Color3.fromRGB(0, 0, 0)
+		GC.TextScaled = true
+		GC.TextSize = 14.000
+		GC.TextWrapped = true
+	
+		_5.Name = "5"
+		_5.Parent = Frame
+		_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		_5.BackgroundTransparency = 1.000
+		_5.Position = UDim2.new(-0.00666666683, 0, 0.231617644, 0)
+		_5.Size = UDim2.new(0, 150, 0, 34)
+		_5.Font = Enum.Font.PatrickHand
+		_5.Text = "N/A"
+		_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+		_5.TextScaled = true
+		_5.TextSize = 14.000
+		_5.TextWrapped = true
+	
+		_50.Name = "50"
+		_50.Parent = Frame
+		_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		_50.BackgroundTransparency = 1.000
+		_50.Position = UDim2.new(0, 0, 0.35661763, 0)
+		_50.Size = UDim2.new(0, 150, 0, 34)
+		_50.Font = Enum.Font.PatrickHand
+		_50.Text = "N/A"
+		_50.TextColor3 = Color3.fromRGB(0, 0, 0)
+		_50.TextScaled = true
+		_50.TextSize = 14.000
+		_50.TextWrapped = true
+	
+		_60.Name = "60"
+		_60.Parent = Frame
+		_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		_60.BackgroundTransparency = 1.000
+		_60.Position = UDim2.new(-0.00666666683, 0, 0.48161763, 0)
+		_60.Size = UDim2.new(0, 150, 0, 34)
+		_60.Font = Enum.Font.PatrickHand
+		_60.Text = "N/A"
+		_60.TextColor3 = Color3.fromRGB(0, 0, 0)
+		_60.TextScaled = true
+		_60.TextSize = 14.000
+		_60.TextWrapped = true
+	
+		_100.Name = "100"
+		_100.Parent = Frame
+		_100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		_100.BackgroundTransparency = 1.000
+		_100.Position = UDim2.new(-0.0466666669, 0, 0.60661763, 0)
+		_100.Size = UDim2.new(0, 150, 0, 34)
+		_100.Font = Enum.Font.PatrickHand
+		_100.Text = "N/A"
+		_100.TextColor3 = Color3.fromRGB(0, 0, 0)
+		_100.TextScaled = true
+		_100.TextSize = 14.000
+		_100.TextWrapped = true
+	
+		_150.Name = "150"
+		_150.Parent = Frame
+		_150.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		_150.BackgroundTransparency = 1.000
+		_150.Position = UDim2.new(0, 0, 0.73161763, 0)
+		_150.Size = UDim2.new(0, 150, 0, 34)
+		_150.Font = Enum.Font.PatrickHand
+		_150.Text = "N/A"
+		_150.TextColor3 = Color3.fromRGB(0, 0, 0)
+		_150.TextScaled = true
+		_150.TextSize = 14.000
+		_150.TextWrapped = true
+	
+		Close.Name = "Close"
+		Close.Parent = ScreenGui
+		Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Close.BackgroundTransparency = 1.000
+		Close.Position = UDim2.new(0.96558845, 0, 0.180758029, 0)
+		Close.Size = UDim2.new(0, 31, 0, 50)
+		Close.Font = Enum.Font.PatrickHand
+		Close.Text = "X"
+		Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+		Close.TextScaled = true
+		Close.TextSize = 14.000
+		Close.TextWrapped = true
+	
+		Open.Name = "Open"
+		Open.Parent = ScreenGui
+		Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Open.BackgroundTransparency = 1.000
+		Open.Position = UDim2.new(0, 0, 0.402332366, 0)
+		Open.Selectable = false
+		Open.Size = UDim2.new(0, 76, 0, 59)
+		Open.Font = Enum.Font.SourceSans
+		Open.Text = "Open"
+		Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Open.TextSize = 14.000
+	
+		-- Scripts:
+	
+		local function YBVVIR_fake_script() -- _5.5 
+			local script = Instance.new('Script', _5)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				game.Workspace.Gravity = script.Parent.Name
+			end)
+			script.Parent.Text = script.Parent.Name
+		end
+		coroutine.wrap(YBVVIR_fake_script)()
+		local function GIWG_fake_script() -- _50.Script 
+			local script = Instance.new('Script', _50)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				game.Workspace.Gravity = script.Parent.Name
+			end)
+			script.Parent.Text = script.Parent.Name
+		end
+		coroutine.wrap(GIWG_fake_script)()
+		local function OGNR_fake_script() -- _60.Script 
+			local script = Instance.new('Script', _60)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				game.Workspace.Gravity = script.Parent.Name
+			end)
+			script.Parent.Text = script.Parent.Name
+		end
+		coroutine.wrap(OGNR_fake_script)()
+		local function HBHWWXE_fake_script() -- _100.Script 
+			local script = Instance.new('Script', _100)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				game.Workspace.Gravity = script.Parent.Name
+			end)
+			script.Parent.Text = script.Parent.Name
+		end
+		coroutine.wrap(HBHWWXE_fake_script)()
+		local function VFRYY_fake_script() -- _150.Script 
+			local script = Instance.new('Script', _150)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				game.Workspace.Gravity = script.Parent.Name
+			end)
+			script.Parent.Text = script.Parent.Name
+		end
+		coroutine.wrap(VFRYY_fake_script)()
+		local function TZSPK_fake_script() -- ScreenGui.READ 
+			local script = Instance.new('Script', ScreenGui)
+	
+			--Put "ScreenGui" in "StarterGui"
+			-- if you want custom gravity, duplicate one of the buttons and rename the button you duplicated
+			-- DO NOT MESS WITH THE SCRIPTS  
+			-- The Buttons might say "N/A" if its ok you just have to start up the game 
+		end
+		coroutine.wrap(TZSPK_fake_script)()
+		local function LAGFNT_fake_script() -- Close.LocalScript 
+			local script = Instance.new('LocalScript', Close)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				script.Parent.Parent.Frame.Visible = false
+				script.Parent.Parent.Close.Visible = false
+			end)
+		end
+		coroutine.wrap(LAGFNT_fake_script)()
+		local function YBVT_fake_script() -- Open.LocalScript 
+			local script = Instance.new('LocalScript', Open)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				script.Parent.Parent.Frame.Visible = true
+				script.Parent.Parent.Close.Visible = true
+			end)
+		end
+		coroutine.wrap(YBVT_fake_script)()
+		script.Parent.Text = "Loaded!"
+		wait(5)
+		script.Parent.Text = "Gravity Changer"
+	end)
+	
+	
+end
+coroutine.wrap(SWVC_fake_script)()
+local function VYZDKJ_fake_script() -- IJ.LocalScript 
+	local script = Instance.new('LocalScript', IJ)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local UserInputService = game:GetService("UserInputService")
+		local player = game:GetService("Players").LocalPlayer
+		local character = player.Character
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		local MAX_JUMPS = 99999999999999999999999999
+		local TIME_BETWEEN_JUMPS = 0
+		local numJumps = 0
+		local canJumpAgain = false
+	
+		local function onStateChanged(oldState, newState)
+			if Enum.HumanoidStateType.Landed == newState then
+				numJumps = 0
+				canJumpAgain = false
+			elseif Enum.HumanoidStateType.Freefall == newState then
+				wait(TIME_BETWEEN_JUMPS)
+				canJumpAgain = true
+			elseif Enum.HumanoidStateType.Jumping == newState then
+				canJumpAgain = false
+				numJumps += 1
+			end
+	
+		end
+	
+		local function onJumpRequest()
+			if canJumpAgain and numJumps < MAX_JUMPS then
+				humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+			end
+		end
+	
+		humanoid.StateChanged:Connect(onStateChanged)
+		UserInputService.JumpRequest:Connect(onJumpRequest)
+	
+	end)
+	
+end
+coroutine.wrap(VYZDKJ_fake_script)()
+local function RBYEMEK_fake_script() -- CT.LocalScript 
+	local script = Instance.new('LocalScript', CT)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		mouse = game.Players.LocalPlayer:GetMouse()
+		tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "Click Teleport"
+		tool.Activated:connect(function()
+			local pos = mouse.Hit+Vector3.new(0,2.5,0)
+			pos = CFrame.new(pos.X,pos.Y,pos.Z)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+		end)
+		tool.Parent = game.Players.LocalPlayer.Backpack
+	end)
+	
+end
+coroutine.wrap(RBYEMEK_fake_script)()
+local function CZYZZSV_fake_script() -- BecomeLarge.LocalScript 
+	local script = Instance.new('LocalScript', BecomeLarge)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local Character = LocalPlayer.Character
+		local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	
+		function rm()
+			for i,v in pairs(Character:GetDescendants()) do
+				if v:IsA("BasePart") then
+					if v.Name == "Handle" or v.Name == "Head" then
+						if Character.Head:FindFirstChild("OriginalSize") then
+							Character.Head.OriginalSize:Destroy()
+						end
+					else
+						for i,cav in pairs(v:GetDescendants()) do
+							if cav:IsA("Attachment") then
+								if cav:FindFirstChild("OriginalPosition") then
+									cav.OriginalPosition:Destroy()  
+								end
+							end
+						end
+						v:FindFirstChild("OriginalSize"):Destroy()
+						if v:FindFirstChild("AvatarPartScaleType") then
+							v:FindFirstChild("AvatarPartScaleType"):Destroy()
+						end
+					end
+				end
+			end
+		end
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+		wait(1)
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+		wait(1)
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+		wait(1)
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+		wait(1)
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("HeadScale"):Destroy()
+		wait(1)
+	end)
+	
+end
+coroutine.wrap(CZYZZSV_fake_script)()
+local function MAWR_fake_script() -- Fling.LocalScript 
+	local script = Instance.new('LocalScript', Fling)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then
+			game:GetService("RunService").Heartbeat:connect(function()
+				v.Velocity = Vector3.new(0,-30,0)
+				wait(0.5)
+			end)
+		end
+	end
+	
+	function rmesh(HatName)
+		for _,mesh in next, workspace[game.Players.LocalPlayer.Name][HatName]:GetDescendants() do
+			if mesh:IsA("Mesh") or mesh:IsA("SpecialMesh") then
+				mesh:Remove()
+			end
+		end
+	end
+	
+	function create(part, parent, position, rotation)
+		part.AccessoryWeld:Remove()
+		Instance.new("Attachment",part)
+		Instance.new("AlignPosition",part)
+		Instance.new("AlignOrientation",part)
+		Instance.new("Attachment",parent)
+		part.AlignPosition.Attachment0 = part.Attachment
+		part.AlignOrientation.Attachment0 = part.Attachment
+		part.AlignPosition.Attachment1 = parent.Attachment
+		part.AlignOrientation.Attachment1 = parent.Attachment
+		part.Attachment.Position = position
+		part.Attachment.Orientation = rotation
+		part.AlignPosition.Responsiveness = 200
+		part.AlignOrientation.Responsiveness = 200
+		part.AlignPosition.MaxForce = 9999999
+		part.AlignPosition.RigidityEnabled = false
+		part.AlignOrientation.MaxTorque = 9999999
+	end
+	
+	local LocalPlayer = game.Players.LocalPlayer
+	
+	function eswait(num)
+		if num == 0 or num == nil then
+			game:service("RunService").Stepped:wait(0)
+		else
+			for i = 0, num do
+				game:service("RunService").Stepped:wait(0)
+			end
+		end
+	end
+	
+	function makepart(hat,part)
+		Instance.new('Part',workspace[LocalPlayer.Name])
+		workspace[LocalPlayer.Name].Part.Name = 'lerp'..hat
+		workspace[LocalPlayer.Name]['lerp'..hat].CanCollide = false
+		workspace[LocalPlayer.Name]['lerp'..hat].Size = workspace[LocalPlayer.Name][hat].Handle.Size
+		workspace[LocalPlayer.Name]['lerp'..hat].Transparency = 1
+		Instance.new('Weld',workspace[LocalPlayer.Name]['lerp'..hat])
+		create(workspace[LocalPlayer.Name][hat].Handle,workspace[LocalPlayer.Name]['lerp'..hat],Vector3.new(),Vector3.new())
+		workspace[LocalPlayer.Name]['lerp'..hat].Weld.Part0 = workspace[LocalPlayer.Name]['lerp'..hat]
+		workspace[LocalPlayer.Name]['lerp'..hat].Weld.Part1 = workspace[LocalPlayer.Name][part]
+		workspace[LocalPlayer.Name]['lerp'..hat].Weld.C0 = workspace[LocalPlayer.Name]['lerp'..hat].CFrame:inverse() * workspace[LocalPlayer.Name][part].CFrame * CFrame.new(0,0,0) * CFrame.Angles(math.rad(0),math.rad(0),0)
+	end
+	
+	local hatsine = 0
+	
+	local hatchange = 1
+	
+	function clerp(hat,ppx,ppy,pppz,rrrx,rrry,rrz,lppx,lppy,lpppz,lrrrx,lrrry,lrrz,speed)
+		coroutine.wrap(function()
+			while true do
+				hatsine = hatsine + speed
+				workspace[game.Players.LocalPlayer.Name]['lerp'..hat].Weld.C0 = workspace[game.Players.LocalPlayer.Name]['lerp'..hat].Weld.C0:lerp(CFrame.new(ppx + lppx * math.sin(hatsine/11), ppy + lppy * math.sin(hatsine/11), pppz + lpppz * math.sin(hatsine/11)) * CFrame.Angles(math.rad(rrrx + lrrrx * math.sin(hatsine/11)), math.rad(rrry + lrrry * math.sin(hatsine/11)), math.rad(rrz + lrrz * math.sin(hatsine/11))),0.1)
+				eswait()
+			end
+		end)()
+	end
+	
+	local player = game.Players.LocalPlayer
+	local character1 = player.Character
+	local mouse = player:GetMouse()
+	
+	local fakebody = Instance.new("Part", character1)
+	fakebody.Transparency = 1
+	fakebody.Anchored = true
+	fakebody.CanCollide = false
+	fakebody.Position = character1.Head.Position
+	fakebody.Name = "FPart"
+	wait()
+	_G.ReanimationType = "PDeath" --PDeath, Fling, Simple
+	_G.Velocity = Vector3.new(36,0,0)
+	_G.FlingBlock = true
+	_G.FlingBlockTransparency = 1
+	_G.HighlightFlingBlock = true
+	_G.FlingBlockPosition = "FPart"
+	_G.HighlightFlingBlockColor = Color3.fromRGB(255,0,0)
+	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/Reanimation.lua/main/Main/Main.lua"))()
+	wait(1)
+	
+	mouse.KeyDown:connect(function(key)
+		if key == "e" then
+			character1.Reanimate.FPart.Position = mouse.Hit.p
+		end
+	end)
+	
+	rmesh('Pink Hair')
+	rmesh('Kate Hair')
+	
+	makepart('Kate Hair','Right Arm')
+	clerp('Kate Hair',0,1,0,0,0,0,0,0,0,0,0,0,1)
+	
+	makepart('Pink Hair','Right Arm')
+	clerp('Pink Hair',0,0.5,-2,-90,0,0,0,0,0,0,0,0,1)
+	
+	local Scale = game.Players.LocalPlayer.Character.Torso.Size.X/2*(game.Players.LocalPlayer.Character.Torso:FindFirstChild("ScaleInserted") ~= nil and game.Players.LocalPlayer.Character.Torso:FindFirstChild("ScaleInserted").Scale.Z or 1)*0.8
+	local Speed = 20*Scale
+	local Gravity = 0.1
+	
+	local Player = game.Players.LocalPlayer
+	local Character = Player.Character.Reanimate
+	local Humanoid = Character.Humanoid
+	Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
+	local Torso = Character.HumanoidRootPart
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local RenderStepped = game:GetService("RunService").RenderStepped
+	local Camera = Workspace.CurrentCamera
+	Camera:ClearAllChildren()
+	local Model = Instance.new("Model",Character)
+	local IgnoreList = {Character,Workspace.Terrain}
+	
+	local Part0Joint = CFrame.new(Vector3.new(1,0.75,0)*Scale*1.25)
+	local Part1Joint = CFrame.new(Vector3.new(-0.5,0.75,0)*Scale*1.25)
+	local RotationOffset = CFrame.Angles(math.rad(90),math.rad(0),0)
+	local Gangster = false
+	
+	local Part0JointHead = CFrame.new(Vector3.new(0,1,0)*Scale*1.25)
+	local Part1JointHead = CFrame.new(Vector3.new(0,-0.5,0)*Scale*1.25)
+	local RotationOffsetHead = CFrame.Angles(0,0,0)
+	
+	local Handle = Instance.new("Part",Model)
+	Handle.CanCollide = false
+	Handle.Name = "Handle"
+	Handle.Position = Vector3.new(0,100,0)
+	Handle:BreakJoints()
+	Handle.FormFactor = "Custom"
+	Handle.Size = Vector3.new(0.2,0.2,0.2)
+	Handle.TopSurface = "SmoothNoOutlines"
+	Handle.BottomSurface = "SmoothNoOutlines"
+	Handle.FrontSurface = "SmoothNoOutlines"
+	Handle.BackSurface = "SmoothNoOutlines"
+	Handle.RightSurface = "SmoothNoOutlines"
+	Handle.LeftSurface = "SmoothNoOutlines"
+	Handle.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("BlockMesh",Handle)
+	Mesh.Scale = Vector3.new(0.25,1,0.4) / 0.2 * Scale
+	local HandleWeld = Instance.new("Motor6D")
+	HandleWeld.Part0 = Character["Right Arm"]
+	HandleWeld.Part1 = Handle
+	HandleWeld.C0 = CFrame.new(Vector3.new(0,-1,0)*Scale) * CFrame.Angles(math.rad(-105),0,0)
+	HandleWeld.Parent = Handle
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("CylinderMesh",Part)
+	Mesh.Scale = Vector3.new(0.07,0.2,0.07) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(-0.115,-0.475,-0.190)*Scale) * CFrame.Angles(0,0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("CylinderMesh",Part)
+	Mesh.Scale = Vector3.new(0.07,0.2,0.07) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0.115,-0.475,0.190)*Scale) * CFrame.Angles(0,0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("CylinderMesh",Part)
+	Mesh.Scale = Vector3.new(0.07,0.2,0.07) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(-0.115,-0.475,0.190)*Scale) * CFrame.Angles(0,0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("CylinderMesh",Part)
+	Mesh.Scale = Vector3.new(0.07,0.2,0.07) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0.115,-0.475,-0.190)*Scale) * CFrame.Angles(0,0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.23,0.2,0.1) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0,-0.475,-0.175)*Scale) * CFrame.Angles(0,0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.23,0.2,0.1) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0,-0.475,0.175)*Scale) * CFrame.Angles(0,0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.1,0.2,0.38) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(-0.1,-0.475,0)*Scale) * CFrame.Angles(0,0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.1,0.2,0.38) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0.1,-0.475,0)*Scale) * CFrame.Angles(0,0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.1,0.3,0.05) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.Angles(math.rad(15),0,0) * CFrame.new(Vector3.new(0,0.25,-0.75)*Scale) * CFrame.Angles(math.rad(-10),0,0)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.1,0.05,0.625) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Handle
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.Angles(math.rad(15),0,0) * CFrame.new(Vector3.new(0,0.1,-0.435)*Scale)
+	PartWeld.Parent = Part
+	
+	for i = 0,80,10 do
+		local Part = Instance.new("Part",Model)
+		Part.CanCollide = false
+		Part.Position = Vector3.new(0,100,0)
+		Part:BreakJoints()
+		Part.FormFactor = "Custom"
+		Part.Size = Vector3.new(0.2,0.2,0.2)
+		Part.TopSurface = "SmoothNoOutlines"
+		Part.BottomSurface = "SmoothNoOutlines"
+		Part.FrontSurface = "SmoothNoOutlines"
+		Part.BackSurface = "SmoothNoOutlines"
+		Part.RightSurface = "SmoothNoOutlines"
+		Part.LeftSurface = "SmoothNoOutlines"
+		Part.BrickColor = BrickColor.new("Black")
+		local Mesh = Instance.new("BlockMesh",Part)
+		Mesh.Scale = Vector3.new(0.25,0.15,0.03555*2) / 0.2 * Scale
+		local PartWeld = Instance.new("Motor6D")
+		PartWeld.Part0 = Handle
+		PartWeld.Part1 = Part
+		PartWeld.C0 = CFrame.new(Vector3.new(0,0.15,0.315)*Scale) * CFrame.Angles(math.rad(i-65),0,0) * CFrame.new(Vector3.new(0,0.2,0)*Scale)
+		PartWeld.Parent = Part
+	end
+	
+	local Barrel = Instance.new("Part",Model)
+	Barrel.CanCollide = false
+	Barrel.Position = Vector3.new(0,100,0)
+	Barrel:BreakJoints()
+	Barrel.FormFactor = "Custom"
+	Barrel.Size = Vector3.new(0.2,0.2,0.2)
+	Barrel.TopSurface = "SmoothNoOutlines"
+	Barrel.BottomSurface = "SmoothNoOutlines"
+	Barrel.FrontSurface = "SmoothNoOutlines"
+	Barrel.BackSurface = "SmoothNoOutlines"
+	Barrel.RightSurface = "SmoothNoOutlines"
+	Barrel.LeftSurface = "SmoothNoOutlines"
+	Barrel.BrickColor = BrickColor.new("Black")
+	local Mesh = Instance.new("BlockMesh",Barrel)
+	Mesh.Scale = Vector3.new(0.25,0.2,2) / 0.2 * Scale
+	local BarrelWeld = Instance.new("Motor6D")
+	BarrelWeld.Part0 = Handle
+	BarrelWeld.Part1 = Barrel
+	BarrelWeld.C0 = CFrame.Angles(math.rad(15),0,0) * CFrame.new(Vector3.new(0,0.5,-0.7)*Scale)
+	BarrelWeld.Parent = Barrel
+	
+	local Barrel1 = Barrel
+	
+	local Barrel2 = Instance.new("Part",Model)
+	Barrel2.CanCollide = false
+	Barrel2.Position = Vector3.new(0,100,0)
+	Barrel2:BreakJoints()
+	Barrel2.FormFactor = "Custom"
+	Barrel2.Size = Vector3.new(0.2,0.2,0.2)
+	Barrel2.TopSurface = "SmoothNoOutlines"
+	Barrel2.BottomSurface = "SmoothNoOutlines"
+	Barrel2.FrontSurface = "SmoothNoOutlines"
+	Barrel2.BackSurface = "SmoothNoOutlines"
+	Barrel2.RightSurface = "SmoothNoOutlines"
+	Barrel2.LeftSurface = "SmoothNoOutlines"
+	Barrel2.BrickColor = BrickColor.new("Really black")
+	local Mesh = Instance.new("BlockMesh",Barrel2)
+	Mesh.Scale = Vector3.new(0.25,0.25,2) / 0.2 * Scale
+	local Barrel2Weld = Instance.new("Motor6D")
+	Barrel2Weld.Part0 = Barrel
+	Barrel2Weld.Part1 = Barrel2
+	Barrel2Weld.C0 = CFrame.new(Vector3.new(0,0.225,0)*Scale)
+	Barrel2Weld.Parent = Barrel2
+	
+	local RealBarrel = Instance.new("Part",Model)
+	RealBarrel.CanCollide = false
+	RealBarrel.Position = Vector3.new(0,100,0)
+	RealBarrel:BreakJoints()
+	RealBarrel.FormFactor = "Custom"
+	RealBarrel.Size = Vector3.new(0.2,0.2,0.2)
+	RealBarrel.TopSurface = "SmoothNoOutlines"
+	RealBarrel.BottomSurface = "SmoothNoOutlines"
+	RealBarrel.FrontSurface = "SmoothNoOutlines"
+	RealBarrel.BackSurface = "SmoothNoOutlines"
+	RealBarrel.RightSurface = "SmoothNoOutlines"
+	RealBarrel.LeftSurface = "SmoothNoOutlines"
+	RealBarrel.BrickColor = BrickColor.new("Dark grey metallic")
+	local Mesh = Instance.new("CylinderMesh",RealBarrel)
+	Mesh.Scale = Vector3.new(0.2,2,0.2) / 0.2 * Scale
+	local RealBarrelWeld = Instance.new("Motor6D")
+	RealBarrelWeld.Part0 = Barrel
+	RealBarrelWeld.Part1 = RealBarrel
+	RealBarrelWeld.C0 = CFrame.new(Vector3.new(0,0.1,-0.01)*Scale) * CFrame.Angles(math.rad(-90),0,0)
+	RealBarrelWeld.Parent = RealBarrel
+	
+	for i = 1,75,15 do
+		local Part = Instance.new("Part",Model)
+		Part.CanCollide = false
+		Part.Position = Vector3.new(0,100,0)
+		Part:BreakJoints()
+		Part.FormFactor = "Custom"
+		Part.Size = Vector3.new(0.2,0.2,0.2)
+		Part.TopSurface = "SmoothNoOutlines"
+		Part.BottomSurface = "SmoothNoOutlines"
+		Part.FrontSurface = "SmoothNoOutlines"
+		Part.BackSurface = "SmoothNoOutlines"
+		Part.RightSurface = "SmoothNoOutlines"
+		Part.LeftSurface = "SmoothNoOutlines"
+		Part.BrickColor = BrickColor.new("Black")
+		local Mesh = Instance.new("BlockMesh",Part)
+		Mesh.Scale = Vector3.new(0.05,0.065,0.05) / 0.2 * Scale
+		local PartWeld = Instance.new("Motor6D")
+		PartWeld.Part0 = Handle
+		PartWeld.Part1 = Part
+		PartWeld.C0 = CFrame.new(Vector3.new(0,0.525,-0.515)*Scale) * CFrame.Angles(math.rad(i),0,0) * CFrame.new(Vector3.new(0,0,0.2)*Scale)
+		PartWeld.Parent = Part
+	end
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Really black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.05,0.11,0.1) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Barrel2
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0.06,0.135,0.925)*Scale)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Really black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.05,0.11,0.1) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Barrel2
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(-0.06,0.135,0.925)*Scale)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Really black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.025,0.1,0.1) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Barrel2
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0,0.135,-0.925)*Scale)
+	PartWeld.Parent = Part
+	
+	local Part = Instance.new("Part",Model)
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.Transparency = 1
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Really black")
+	local Mesh = Instance.new("BlockMesh",Part)
+	Mesh.Scale = Vector3.new(0.1,0.1,0.1) / 0.2 * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = Barrel
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0,0,-5)*Scale)
+	PartWeld.Parent = Part
+	
+	local Light = Instance.new("PointLight",Part)
+	Light.Color = BrickColor.new("Gold").Color
+	Light.Enabled = true
+	Light.Shadows = true
+	Light.Brightness = 0
+	Light.Range = 6
+	
+	local Part = Instance.new("Part",Model)
+	Part.Material = "Neon"
+	Part.CanCollide = false
+	Part.Position = Vector3.new(0,100,0)
+	Part:BreakJoints()
+	Part.FormFactor = "Custom"
+	Part.Size = Vector3.new(0.2,0.2,0.2)
+	Part.TopSurface = "SmoothNoOutlines"
+	Part.BottomSurface = "SmoothNoOutlines"
+	Part.FrontSurface = "SmoothNoOutlines"
+	Part.BackSurface = "SmoothNoOutlines"
+	Part.RightSurface = "SmoothNoOutlines"
+	Part.LeftSurface = "SmoothNoOutlines"
+	Part.BrickColor = BrickColor.new("Bright yellow")
+	Part.Transparency = 0.25
+	local RecoilMesh = Instance.new("SpecialMesh",Part)
+	RecoilMesh.MeshType = "FileMesh"
+	RecoilMesh.MeshId = "http://www.roblox.com/Asset/?id=1323306"
+	RecoilMesh.TextureId = "http://www.roblox.com/Asset/?id=98896228"
+	RecoilMesh.Scale = Vector3.new(0.175,0,0.175) * Scale
+	local PartWeld = Instance.new("Motor6D")
+	PartWeld.Part0 = RealBarrel
+	PartWeld.Part1 = Part
+	PartWeld.C0 = CFrame.new(Vector3.new(0,0.95,0)*Scale)
+	PartWeld.Parent = Part
+	
+	function ShootBullet(Target,barrel)
+		local barrel = barrel or Barrel
+		local Bullet = Instance.new("Part",Workspace)
+		Barrel.CanCollide = false
+		Bullet.FormFactor = "Custom"
+		Bullet.Size = Vector3.new(0.2,0.2,5)*Scale
+		Bullet.TopSurface = "Smooth"
+		Bullet.BottomSurface = "Smooth"
+		Bullet.Anchored = true
+		Bullet.CanCollide = false
+		Bullet.CFrame = CFrame.new((barrel.CFrame*CFrame.new(0,0,-barrel.Size.Z*barrel.Mesh.Scale.Z/2)).p,Target)*CFrame.new(0,0,-Bullet.Size.Z/2)
+		Bullet.Transparency = 0.1
+		Bullet.BrickColor = BrickColor.new("Gold")
+	--[[local Mesh = Instance.new("SpecialMesh",Bullet)
+	Mesh.MeshType = "FileMesh"
+	Mesh.Scale = Vector3.new(0.5,0.5,0.2)
+	Mesh.MeshId = "http://www.roblox.com/asset/?id=2697549"
+	--Mesh.TextureId = "http://www.roblox.com/asset/?id=2697544"]]
+		local Mesh = Instance.new("BlockMesh",Bullet)
+		Mesh.Scale = Vector3.new(0.2,0.2,5)*Scale/Bullet.Size
+		IgnoreList[#IgnoreList+1] = Bullet
+		RenderStepped:wait()
+		for i = Speed,1000,Speed do -- Loop to do the bullet movement and stuff.
+			local ray,Hit,Pos,SurfaceNormal;
+			ray = Ray.new(Bullet.Position,((Bullet.CFrame*CFrame.Angles(math.rad(-Gravity),0,0)*CFrame.new(0,0,-Speed)).p-Bullet.Position).unit*Speed)
+			Hit,Pos,SurfaceNormal = Workspace:FindPartOnRayWithIgnoreList(ray,IgnoreList)
+			Bullet.CFrame = Bullet.CFrame*CFrame.Angles(math.rad(-Gravity),0,0)*CFrame.new(0,0,-Speed)
+			if Hit ~= nil then
+				local Hum = Hit.Parent:FindFirstChild("Humanoid") or Hit.Parent.Parent:FindFirstChild("Humanoid") or (Hit.Parent.Parent.Parent ~= nil and Hit.Parent.Parent.Parent:FindFirstChild("Humanoid"))
+				if Hum ~= nil then
+					Hum:TakeDamage((((Gangster and math.random(0,0) or math.random(0,0))*Scale)/100)*Hum.MaxHealth)
+				end
+				break
+			end
+			RenderStepped:wait()
+		end
+		Bullet:Destroy()
+	end
+	
+	Mouse.Button1Down:connect(function()
+		if not Down and not DB then
+			Down = true
+			while Down do
+				if Humanoid.Health == 0 then break end
+				if not DB then
+					DB = true
+					local Sound = Instance.new("Sound",Barrel)
+					Sound.SoundId = "http://www.roblox.com/Asset/?id=165946426" -- 132373574
+					Sound.Volume = 5*Scale
+					Sound.Pitch = (math.random(70,110)/100)/((Scale < 0.25 and 0.25) or (Scale > 4 and 4) or Scale)
+					Sound:Play()
+					Spawn(function()
+						ShootBullet(Mouse.Hit.p,Barrel1)
+					end)
+					RecoilMesh.VertexColor = Vector3.new(1,math.random(160,245)/255,20/255)
+					PartWeld.C0 = PartWeld.C0 * CFrame.Angles(0,math.rad(math.random(-40,40)),0)
+					local Shell = Instance.new("Part",Workspace)
+					Shell.FormFactor = "Custom"
+					Shell.BrickColor = BrickColor.new("Bright yellow")
+					Shell.Size = Vector3.new(0.2,0.5,0.2)*Scale
+					Shell.CFrame = Barrel.CFrame*CFrame.new(0.5,0.5,0)*CFrame.Angles(math.rad(-90),0,0)
+					Shell.Velocity = ((Barrel.CFrame*CFrame.new(5,0,math.random(-2,2))).p-Barrel.CFrame.p)*5*Scale
+					local Mesh = Instance.new("CylinderMesh",Shell)
+					Mesh.Scale = Vector3.new(0.2,0.5,0.2)*Scale/Shell.Size
+					Spawn(function()
+						wait(5)
+						Shell:Destroy()
+					end)
+					for i = 1,20,7.5 do
+						character1.Reanimate.FPart.Position = mouse.Hit.p
+						RotationOffset = RotationOffset*CFrame.Angles(math.rad(7.5),0,0)
+						Part1Joint = Part1Joint*CFrame.new(Vector3.new(0,-0.15,0)*Scale)
+						Barrel2Weld.C0 = Barrel2Weld.C0*CFrame.new(Vector3.new(0,0,0.15)*Scale)
+						Light.Brightness = Light.Brightness+38
+						RecoilMesh.Scale = RecoilMesh.Scale+(Vector3.new(0,0.375,0)*Scale)
+						RenderStepped:wait()
+					end
+					wait(0.02)
+					for i = 1,20,3.75 do
+						character1.Reanimate.FPart.Position = mouse.Hit.p
+						RotationOffset = RotationOffset*CFrame.Angles(math.rad(-3.75),0,0)
+						Part1Joint = Part1Joint*CFrame.new(Vector3.new(0,0.075,0)*Scale)
+						Barrel2Weld.C0 = Barrel2Weld.C0*CFrame.new(Vector3.new(0,0,-0.075)*Scale)
+						Light.Brightness = Light.Brightness-19
+						RecoilMesh.Scale = RecoilMesh.Scale+(Vector3.new(0,-0.1875,0)*Scale)
+						RenderStepped:wait()
+					end
+					wait(0.02)
+					DB = false
+				end
+			end
+		end
+	end)
+	
+	Mouse.Button1Up:connect(function()
+		Down = false
+	end)
+	
+	Mouse.KeyDown:connect(function(Key)
+		if Key:lower() == "g" and not DB then
+			DB = true
+			if Gangster == true then
+				for i = 1,70,5 do
+					RotationOffset = RotationOffset*CFrame.Angles(0,math.rad(-5),0)
+					RenderStepped:wait()
+				end
+				Gangster = false
+			else
+				for i = 1,70,5 do
+					RotationOffset = RotationOffset*CFrame.Angles(0,math.rad(5),0)
+					RenderStepped:wait()
+				end
+				Gangster = true
+			end
+			DB = false
+		end
+	end)
+	
+	local Weld = Instance.new("Weld")
+	Weld.Part0 = Torso
+	Weld.Part1 = Character["Right Arm"]
+	Weld.Parent = Torso
+	
+	local Weld2 = Instance.new("Weld")
+	Weld2.Part0 = Torso
+	Weld2.Part1 = Character.Head
+	Weld2.Parent = Torso
+	
+	local RA = Character["Right Arm"]
+	
+	game:GetService("RunService"):BindToRenderStep("Pistol",Enum.RenderPriority.Character.Value,function()
+		local Point = Torso.CFrame:vectorToObjectSpace(Mouse.Hit.p-Torso.CFrame.p)
+		if Point.Z > 0 then
+			if Point.X > 0 then
+				Torso.CFrame = CFrame.new(Torso.Position,Vector3.new(Mouse.Hit.X,Torso.Position.Y,Mouse.Hit.Z))*CFrame.Angles(0,math.rad(90),0)
+			elseif Point.X < 0 then
+				Torso.CFrame = CFrame.new(Torso.Position,Vector3.new(Mouse.Hit.X,Torso.Position.Y,Mouse.Hit.Z))*CFrame.Angles(0,math.rad(-90),0)
+			end
+		end
+	
+		local CFr = (Torso.CFrame*Part0Joint):toObjectSpace(CFrame.new((Torso.CFrame*Part0Joint).p,Mouse.Hit.p))--RayEnd))
+		Weld.C0 = Part0Joint * (CFr-CFr.p) * RotationOffset
+		Weld.C1 = Part1Joint
+		Weld.Part0 = Torso
+		Weld.Part1 = RA
+		local CFr = (Torso.CFrame*Part0JointHead):toObjectSpace(CFrame.new((Torso.CFrame*Part0JointHead).p,Mouse.Hit.p))--RayEnd))
+		Weld2.C0 = Part0JointHead * (CFr-CFr.p) * RotationOffsetHead
+		Weld2.C1 = Part1JointHead
+		Weld2.Part0 = Torso
+		Weld2.Part1 = Character.Head
+		local Last = Scale
+		Scale = game.Players.LocalPlayer.Character.Torso.Size.X/2*(game.Players.LocalPlayer.Character.Torso:FindFirstChild("ScaleInserted") ~= nil and game.Players.LocalPlayer.Character.Torso:FindFirstChild("ScaleInserted").Scale.Z or 1)*0.8
+		Speed = 20*Scale
+		if Scale ~= Last then
+			Part0Joint = CFrame.new(Vector3.new(1,0.75,0)*Scale*1.25)
+			Part1Joint = CFrame.new(Vector3.new(-0.5,0.75,0)*Scale*1.25)
+			Part0JointHead = CFrame.new(Vector3.new(0,1,0)*Scale*1.25)
+			Part1JointHead = CFrame.new(Vector3.new(0,-0.5,0)*Scale*1.25)
+		end
+		end)
+		end)
+	
+	
+end
+coroutine.wrap(MAWR_fake_script)()
+local function WADO_fake_script() -- p1_3.LocalScript 
+	local script = Instance.new('LocalScript', p1_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = true
+	end)
+	
+end
+coroutine.wrap(WADO_fake_script)()
+local function NDDBWS_fake_script() -- p2_3.LocalScript 
+	local script = Instance.new('LocalScript', p2_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(NDDBWS_fake_script)()
+local function PFKMOLW_fake_script() -- p3_3.LocalScript 
+	local script = Instance.new('LocalScript', p3_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = true
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(PFKMOLW_fake_script)()
+local function BFIA_fake_script() -- p4_3.LocalScript 
+	local script = Instance.new('LocalScript', p4_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = true
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(BFIA_fake_script)()
+local function RXECKLV_fake_script() -- home_3.LocalScript 
+	local script = Instance.new('LocalScript', home_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = true
+	end)
+end
+coroutine.wrap(RXECKLV_fake_script)()
+local function GGFT_fake_script() -- p1_4.LocalScript 
+	local script = Instance.new('LocalScript', p1_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = true
+	end)
+	
+end
+coroutine.wrap(GGFT_fake_script)()
+local function PRMLLZ_fake_script() -- p2_4.LocalScript 
+	local script = Instance.new('LocalScript', p2_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(PRMLLZ_fake_script)()
+local function XJGHFB_fake_script() -- p3_4.LocalScript 
+	local script = Instance.new('LocalScript', p3_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = true
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(XJGHFB_fake_script)()
+local function ANMSKUO_fake_script() -- p4_4.LocalScript 
+	local script = Instance.new('LocalScript', p4_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = true
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(ANMSKUO_fake_script)()
+local function CBHR_fake_script() -- home_4.LocalScript 
+	local script = Instance.new('LocalScript', home_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = true
+	end)
+end
+coroutine.wrap(CBHR_fake_script)()
+local function RDEUA_fake_script() -- p1_5.LocalScript 
+	local script = Instance.new('LocalScript', p1_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = true
+	end)
+	
+end
+coroutine.wrap(RDEUA_fake_script)()
+local function NRQAQCH_fake_script() -- p2_5.LocalScript 
+	local script = Instance.new('LocalScript', p2_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(NRQAQCH_fake_script)()
+local function SPDGYU_fake_script() -- p3_5.LocalScript 
+	local script = Instance.new('LocalScript', p3_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = true
+		script.Parent.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(SPDGYU_fake_script)()
+local function VMBMVTQ_fake_script() -- p4_5.LocalScript 
+	local script = Instance.new('LocalScript', p4_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Parent.Page4.Visible = true
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+	end)
+	
+end
+coroutine.wrap(VMBMVTQ_fake_script)()
+local function LQGHYAA_fake_script() -- home_5.LocalScript 
+	local script = Instance.new('LocalScript', home_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Page4.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = true
+	end)
+end
+coroutine.wrap(LQGHYAA_fake_script)()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Join our group plz";
+		Text = "script will work and everything but plz join my group it has already been copied to your clipboard";
+		Duration = "5";	
+		
+	})
+	setclipboard("https://www.roblox.com/groups/6137553/T-fans#!/about")
